@@ -4,6 +4,15 @@
 
 A SharePoint Framework (SPFx) web part that demonstrates automated list provisioning. This web part creates a "ProjectsNew" list with custom fields and sample data.
 
+
+## Screenshot
+The webpart will display a welcome message and a button to provision the list. 
+![SharePoint List Provisioning Web Part](./assets/Initial.png)
+
+After provisioning, it will display the list with randomly generated items.
+![SharePoint List Provisioning Web Part](./assets/AfterConfig.png)
+
+
 ## Features
 
 This web part demonstrates the following concepts:
