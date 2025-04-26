@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-provision-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listProvisionTest/ListProvisionTestWebPart.js",
+          "manifest": "./src/webparts/listProvisionTest/ListProvisionTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListProvisionTestWebPartStrings": "lib/webparts/listProvisionTest/loc/{locale}.js"
+  }
+}
