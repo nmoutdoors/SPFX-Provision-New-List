@@ -33,13 +33,14 @@ This web part demonstrates the following concepts:
 
 1. Clone this repository
 2. Navigate to the project directory
-3. Run the following commands:
+3. Open config/serve.json and update the initialPage property with your SharePoint site URL
+4. Run the following commands:
    ```bash
    npm install
    gulp serve
    ```
-4. When prompted, add the web part to your SharePoint page
-5. Use the property pane to provision the new list
+5. When prompted, add the web part to your SharePoint page
+6. Use the property pane to provision the new list
 
 ## Solution Details
 
